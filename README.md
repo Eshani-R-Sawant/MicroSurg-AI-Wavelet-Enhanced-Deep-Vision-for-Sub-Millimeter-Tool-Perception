@@ -1,4 +1,5 @@
-# Wave-R2I: Wavelet-Enhanced Deep Vision for Sub-Millimeter Tool Perception in Robotic Surgery
+# MicroSurg-AI-Wavelet-Enhanced-Deep-Vision-for-Sub-Millimeter-Tool-Perception
+# 
 
 ### Expanding the Zooming-without-Zooming (ZwZ) Framework: Spatial-Information Incorporation, Frequency, and Geometric Extensions
 
@@ -12,7 +13,7 @@ We present **Wave-R2I**, an architectural and procedural expansion of the Zoomin
 3. **Transformer-Based Mask Decoder**: Translates structural `[SEG]` token activations into pixel-precise $1024 \times 1024$ binary segmentation masks via a 4-layer Transformer decoder and transposed convolutions.
 4. **Cross-View Homography Regularization**: Leverages SIFT feature matching and RANSAC homography estimation to enforce geometric consistency under dynamic endoscopic camera movement and extreme perspective shifts.
 
-Wave-R2I achieves sub-millimeter surgical precision from global frames in a single forward pass (~7.5s, 11GB VRAM on an NVIDIA RTX 3090), eliminating mechanical zoom while halving GPU memory requirements over naive multi-crop querying.
+The project achieves sub-millimeter surgical precision from global frames in a single forward pass (~7.5s, 11GB VRAM on an NVIDIA RTX 3090), eliminating mechanical zoom while halving GPU memory requirements over naive multi-crop querying.
 
 ---
 
