@@ -1,0 +1,78 @@
+# ==========================================
+# Git Ignore Rules for SurgMLLM / ZWZ
+# ==========================================
+
+# --- Environments & Packages ---
+.venv/
+venv/
+env/
+miniconda3/
+Miniconda3*.sh
+
+# --- Python Bytecode & Caches ---
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.ipynb_checkpoints/
+*.swp
+*.swo
+
+# --- Secrets & API Keys ---
+api_key.env
+*.env
+.env
+!.env.example
+!api_key.env.example
+!configs/api_key.env.example
+
+# --- Model Weights, Adapters & Checkpoints ---
+weights/
+checkpoints/
+checkpoints*/
+snap/
+Qwen-VL/
+Qwen-VL-Chat/
+temp_hf_download/
+*.pth
+*.pt
+*.bin
+*.safetensors
+*.ckpt
+
+# --- Archives & Compressed Blobs ---
+*.zip
+*.tar
+*.tar.gz
+project.zip
+crops.tar
+cad_hybridgnet.zip
+chexworld_pretrained.tar
+
+# --- Raw Datasets & Extracted Image Folders ---
+data/images/
+SurgMLLMBench/
+output/micro_crops/
+
+# --- Generated Image/Visual Inference Artifacts ---
+# Keep summary JSON metrics, ignore rendered images
+output/inference_results/*.jpg
+output/inference_results/*.png
+output/colon_bench_results/*.jpg
+output/colon_bench_results/*.png
+
+# --- Logs & Slurm Run Outputs ---
+*.log
+*.out
+slurm-*.out
+data_prep_*.log
+download_qwen_*.log
+teacher_oracle_*.log
+sam_extraction_*.log
+my_progress*.log
+
+# --- System & OS Metadata ---
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
