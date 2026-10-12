@@ -2,14 +2,6 @@
 
 ### Expanding the Zooming-without-Zooming (ZwZ) Framework: Spatial-Information Incorporation, Frequency, and Geometric Extensions
 
-**Authors:**  
-* **Layaa Vishwakarma** — Department of Computer Science & Engineering, Indian Institute of Technology Jodhpur (`m25csa017@iitj.ac.in`)  
-* **Eshani Ravindra Sawant** — Department of Computer Science & Engineering, Indian Institute of Technology Jodhpur (`m25cse012@iitj.ac.in`)  
-
-*Preprint. Under review.*
-
----
-
 ## Abstract
 
 Fine-grained perception in robotic surgery demands resolving sub-millimeter structures such as suture threads, needle tips, and micro-scissor edges within global $1024 \times 1024$ endoscopic frames. While Multimodal Large Language Models (MLLMs) excel at broad scene understanding, they struggle when decisive evidence is small and overwhelmed by global context. Traditional physical optical zoom incurs mechanical latency and operator distraction, while agentic "Thinking-with-Images" approaches incur heavy computational delays through iterative visual re-encoding.
@@ -254,14 +246,4 @@ python3 evaluate.py
 
 ---
 
-## Citation
 
-```bibtex
-@article{vishwakarma2026waver2i,
-  title={Expanding the Zooming-without-Zooming (ZwZ) Framework: Spatial-Information incorporation, Frequency, and Geometric Extensions},
-  author={Vishwakarma, Layaa and Sawant, Eshani Ravindra},
-  journal={Preprint},
-  year={2026},
-  institution={Indian Institute of Technology Jodhpur}
-}
-```
